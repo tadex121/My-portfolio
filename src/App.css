@@ -32,6 +32,7 @@
   text-shadow: black 5px 5px 5px;
   text-transform: uppercase;
   white-space: nowrap;
+  z-index: -1;
 }
 
 .links {
@@ -46,13 +47,6 @@
 
 .logo {
   text-shadow: black 2px 1px 1px;
-}
-
-.nav-link {
-  color: orange;
-  &:hover {
-    color: #fb7840;
-  }
 }
 
 @media (min-width: 320px) {

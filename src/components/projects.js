@@ -41,7 +41,7 @@ const projects = () => {
             <Card.Title>My portfolio</Card.Title>
             <Card.Text>My portfolio with projects.</Card.Text>
             <Button
-              href='https://github.com/tadex121/memory-game'
+              href='https://github.com/tadex121/My-portfolio'
               variant='primary'
               target='_blank'
             >

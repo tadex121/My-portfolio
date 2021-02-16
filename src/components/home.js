@@ -1,6 +1,5 @@
 import React from 'react'
 import Video from '../assets/video1.mp4'
-
 const home = () => {
   return (
     <>
