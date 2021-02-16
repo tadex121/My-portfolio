@@ -8,7 +8,7 @@ const myNavbar = () => {
       <Navbar collapseOnSelect expand='lg'>
         <LinkContainer
           className='logo'
-          to='/'
+          to='/My-portfolio'
           style={{ color: '#FFFAF0', fontSize: '32px' }}
         >
           <Navbar.Brand>Tadej Ferk</Navbar.Brand>
@@ -17,21 +17,21 @@ const myNavbar = () => {
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'>
             <LinkContainer
-              className='links'
+              className='/My-portfolio/links'
               style={{ color: '#FFFAF0' }}
               to='/'
             >
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer
-              className='links'
+              className='/My-portfolio/links'
               style={{ color: '#FFFAF0' }}
               to='about'
             >
               <Nav.Link>About me</Nav.Link>
             </LinkContainer>
             <LinkContainer
-              className='links'
+              className='/My-portfolio/links'
               style={{ color: '#FFFAF0' }}
               to='projects'
             >
