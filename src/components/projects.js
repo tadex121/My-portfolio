@@ -32,7 +32,7 @@ const projects = () => {
         </Card>
         <Card>
           <div className='figure'>
-            <a href='https://github.com/tadex121/memory-game' target='_blank'>
+            <a href='https://github.com/tadex121/My-portfolio' target='_blank'>
               <Card.Img variant='top' src={Portfolio} className='image' />
             </a>
           </div>
