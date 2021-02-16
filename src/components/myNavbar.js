@@ -17,23 +17,23 @@ const myNavbar = () => {
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'>
             <LinkContainer
-              className='/My-portfolio/links'
+              className='links'
               style={{ color: '#FFFAF0' }}
-              to='/'
+              to='/My-portfolio/'
             >
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer
-              className='/My-portfolio/links'
+              className='/links'
               style={{ color: '#FFFAF0' }}
-              to='about'
+              to='/My-portfolio/about'
             >
               <Nav.Link>About me</Nav.Link>
             </LinkContainer>
             <LinkContainer
-              className='/My-portfolio/links'
+              className='/links'
               style={{ color: '#FFFAF0' }}
-              to='projects'
+              to='/My-portfolio/projects'
             >
               <Nav.Link>Projects</Nav.Link>
             </LinkContainer>
