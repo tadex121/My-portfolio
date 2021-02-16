@@ -38,8 +38,8 @@ const projects = () => {
           </div>
 
           <Card.Body>
-            <Card.Title>Memory game</Card.Title>
-            <Card.Text>Memory game of footballers.</Card.Text>
+            <Card.Title>My portfolio</Card.Title>
+            <Card.Text>My portfolio with projects.</Card.Text>
             <Button
               href='https://github.com/tadex121/memory-game'
               variant='primary'

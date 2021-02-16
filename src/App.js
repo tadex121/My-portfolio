@@ -5,13 +5,14 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import About from './components/about'
 import Home from './components/home'
 import Projects from './components/projects'
+import Video from './assets/video1.mp4'
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
-        <Home />
+        <video className='video' src={Video} autoPlay loop muted></video>
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
