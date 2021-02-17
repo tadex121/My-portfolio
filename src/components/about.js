@@ -9,15 +9,15 @@ const about = () => {
       <Wrapper>
         <Container className='d-flex'>
           <Row>
-            <Col sm={7}>
+            <Col sm={6}>
               <div className='figure'>
                 <Image className='image' src={picture} rounded fluid />
               </div>
             </Col>
 
-            <Col sm={5}>
-              <h1 className='h1'>ABOUT ME</h1>
-              <p className='p'>
+            <Col sm={6}>
+              <h1>ABOUT ME</h1>
+              <p>
                 I am Tadej Ferk and I am 25 years old. In the 2020 I started
                 learning software development. I learned HTML, CSS, JavaScript,
                 Bootstrap, Vue.js and React. For me the most important thing in
@@ -46,13 +46,15 @@ const Wrapper = styled.section`
     z-index: -1;
     background-color: #d3d3d3;
   }
+
   .container {
     position: relative;
     top: 130px;
   }
+
   .figure {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     overflow: hidden;
   }
 

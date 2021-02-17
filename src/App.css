@@ -41,8 +41,12 @@
   text-shadow: black 2px 2px 1px;
 }
 
-.links:hover {
-  color: yellow;
+.links span:hover {
+  color: lightgrey;
+}
+
+.active-link span {
+  color: lightgrey;
 }
 
 .logo {

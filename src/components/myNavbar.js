@@ -20,22 +20,34 @@ const myNavbar = () => {
               className='links'
               style={{ color: '#FFFAF0' }}
               to='/'
+              exact
+              activeClassName='active-link'
             >
-              <Nav.Link>Home</Nav.Link>
+              <Nav.Link>
+                <span>Home</span>
+              </Nav.Link>
             </LinkContainer>
             <LinkContainer
               className='links'
               style={{ color: '#FFFAF0' }}
               to='/about'
+              exact
+              activeClassName='active-link'
             >
-              <Nav.Link>About me</Nav.Link>
+              <Nav.Link>
+                <span>About me</span>
+              </Nav.Link>
             </LinkContainer>
             <LinkContainer
               className='links'
               style={{ color: '#FFFAF0' }}
               to='/projects'
+              exact
+              activeClassName='active-link'
             >
-              <Nav.Link>Projects</Nav.Link>
+              <Nav.Link>
+                <span>Projects</span>
+              </Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
