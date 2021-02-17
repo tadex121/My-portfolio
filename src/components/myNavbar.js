@@ -49,6 +49,17 @@ const myNavbar = () => {
                 <span>Projects</span>
               </Nav.Link>
             </LinkContainer>
+            <LinkContainer
+              className='links'
+              style={{ color: '#FFFAF0' }}
+              to='/contact'
+              exact
+              activeClassName='active-link'
+            >
+              <Nav.Link>
+                <span>Contact Me</span>
+              </Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
