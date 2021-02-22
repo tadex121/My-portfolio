@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Card, Button, CardDeck, Container } from 'react-bootstrap'
 import Memory from '../assets/memory.jfif'
 import Portfolio from '../assets/portfolio.jpg'
+import Movies from '../assets/movies_search.jpg'
 
 const projects = () => {
   return (
@@ -42,6 +43,25 @@ const projects = () => {
             <Card.Text>My portfolio with projects.</Card.Text>
             <Button
               href='https://github.com/tadex121/My-portfolio'
+              variant='primary'
+              target='_blank'
+            >
+              GITHUB resources
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card>
+          <div className='figure'>
+            <a href='https://github.com/tadex121/memory-game' target='_blank'>
+              <Card.Img variant='top' src={Movies} className='image' />
+            </a>
+          </div>
+
+          <Card.Body>
+            <Card.Title>Search movies</Card.Title>
+            <Card.Text>Basic search movies app with external API.</Card.Text>
+            <Button
+              href='https://github.com/tadex121/search-movies'
               variant='primary'
               target='_blank'
             >
